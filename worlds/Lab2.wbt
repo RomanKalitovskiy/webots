@@ -1,0 +1,350 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.4949694468530395 -0.2081972924651566 0.8435989177874602 3.823553045226928
+  position 1.700985774438282 1.67951741319926 4.716776992244398
+}
+TexturedBackground {
+  texture "mars"
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 3
+  floorAppearance Parquetry {
+  }
+  wallHeight 1
+}
+E-puck {
+  hidden position_0_0 1493.8595874977382
+  hidden position_0_1 1502.3064362702478
+  hidden linearVelocity_0 -0.09188047516677499 -0.039323513699691184 3.3325471054500417e-07
+  hidden angularVelocity_0 -0.0015276189690336325 0.003567713927531579 4.5823049322269416e-07
+  hidden rotation_1 0 -1 0 3.3181427223302924
+  hidden linearVelocity_1 -0.09186263630640848 -0.03931587504165598 2.957341439563498e-07
+  hidden angularVelocity_1 1.9657937104881629 -4.59313183973145 3.579918968322236e-07
+  hidden rotation_2 0 -1 0 4.85479060285309
+  hidden linearVelocity_2 -0.09186263573081183 -0.03931587552230223 2.5072476732530077e-07
+  hidden angularVelocity_2 1.9657938291808614 -4.593131788917844 1.9640197214744458e-07
+  translation 0.1859283683407957 -0.38602993304515026 -5.5983342043253864e-05
+  rotation -0.0005794371563040307 -0.0001187549386263079 -0.9999998250749079 2.737195889279516
+  name "e-puck(6)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+DirectionalLight {
+  direction 0 -1 0
+}
+Solid {
+  translation -0.907 0.71444 0.07
+  rotation 0 0 -1 -1.5707953071795862
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0.5
+          diffuseColor 0 0.976806 0
+          emissiveColor 0 0.976806 0
+          shininess 0.7
+          specularColor 0 0.976806 0
+        }
+        texture ImageTexture {
+          url [
+            ""
+          ]
+        }
+      }
+      geometry Sphere {
+        radius 0.03
+      }
+    }
+  ]
+  name "green"
+}
+Solid {
+  translation 0.683 -0.88556 0.04
+  rotation 0 0 -1 -1.5707953071795862
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0.5
+          diffuseColor 0 0.976806 0
+          emissiveColor 0 0.976806 0
+          shininess 0.7
+          specularColor 0 0.976806 0
+        }
+        texture ImageTexture {
+          url [
+            ""
+          ]
+        }
+      }
+      geometry Sphere {
+        radius 0.03
+      }
+    }
+  ]
+  name "green(1)"
+}
+Solid {
+  translation -0.95 -0.98 0.04
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0.5
+          diffuseColor 1 0.149126 0
+          emissiveColor 1 0.149126 0
+          shininess 0.7
+          specularColor 1 0.149126 0
+        }
+        texture ImageTexture {
+          url [
+            ""
+          ]
+        }
+      }
+      geometry Sphere {
+        radius 0.03
+      }
+    }
+  ]
+  name "red"
+}
+Solid {
+  translation 0.65 0.62 0.04
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          ambientIntensity 0.5
+          diffuseColor 1 0.149126 0
+          emissiveColor 1 0.149126 0
+          shininess 0.7
+          specularColor 1 0.149126 0
+        }
+        texture ImageTexture {
+          url [
+            ""
+          ]
+        }
+      }
+      geometry Sphere {
+        radius 0.03
+      }
+    }
+  ]
+  name "red(1)"
+}
+E-puck {
+  hidden position_0_0 1869.6578380106148
+  hidden position_0_1 2346.1407113843793
+  hidden linearVelocity_0 -0.09370113081822297 -0.035357604791618785 -4.501603676870956e-08
+  hidden angularVelocity_0 0.003534975303024981 -0.009368396804308144 2.3511539250899263e-08
+  hidden rotation_1 0 -1 0 2.731383528901974
+  hidden linearVelocity_1 -0.09374808242049977 -0.03537498518590689 -3.078234068550669e-10
+  hidden angularVelocity_1 1.768763961043997 -4.687398604878892 1.7972254607714228e-07
+  hidden rotation_2 0 -0.9999999999999999 0 3.770593500786041
+  hidden linearVelocity_2 -0.09374786106885681 -0.035375573346599805 -1.9378161306257135e-10
+  hidden angularVelocity_2 1.768763976680149 -4.68739859900215 -1.8385514381199084e-07
+  translation -1.089506311095306 0.19649630406851526 -5.595168994087206e-05
+  rotation 0.0003979203868626072 7.25725377991106e-05 0.9999999181962929 -2.78076815749132
+  name "e-puck(3)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+E-puck {
+  hidden position_0_0 1921.5113092929696
+  hidden position_0_1 2312.312884332365
+  hidden linearVelocity_0 -0.07264741299499201 0.06870720538444713 3.1019532050709975e-08
+  hidden angularVelocity_0 0.0003830535886564486 0.000404694260170352 -2.3620846721974369e-07
+  hidden rotation_1 0 -1 0 1.1433947039838623
+  hidden linearVelocity_1 -0.07264502385921977 0.06870568855649001 -7.212089150354406e-10
+  hidden angularVelocity_1 -3.435264610006737 -3.6322699583190485 1.69097759977064e-07
+  hidden rotation_2 0 1 0 0.10069129027695108
+  hidden linearVelocity_2 -0.07264576673597042 0.06870490259718917 -6.403006126478757e-10
+  hidden angularVelocity_2 -3.4352649813768714 -3.632269607072974 -8.118981601811235e-08
+  translation -1.1347544681289399 -0.7131480708386276 -5.592900685625658e-05
+  rotation 0.0008795368869815254 -0.00035001756222099957 0.999999551951185 2.3840622299648957
+  name "e-puck(1)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+E-puck {
+  hidden position_0_0 2892.49535540128
+  hidden position_0_1 3377.9516485938757
+  hidden linearVelocity_0 6.039155862667207e-08 -1.2250115752557085e-08 -2.67813094777781e-08
+  hidden angularVelocity_0 1.4436351366786974e-06 -5.3816242429837075e-08 8.997758788215591e-07
+  hidden rotation_1 0 1 0 2.2301140986702146
+  hidden linearVelocity_1 3.2863959411614777e-07 1.450520889556682e-07 7.372802102036511e-08
+  hidden angularVelocity_1 -3.529547855023929 3.541508072301594 -2.6798060546610443e-05
+  hidden rotation_2 0 -1 0 2.4020466687418356
+  hidden linearVelocity_2 -1.427321340449717e-07 -1.1737082812570566e-07 -1.0979685479791776e-07
+  hidden angularVelocity_2 -3.529548987147727 3.5415069437753557 -2.2747144969116275e-05
+  translation 1.4631989181287255 1.4631984604407517 -2.8203936495996285e-05
+  rotation -0.0025113814729131054 0.006088803183082912 -0.9999783094842084 -0.7837232410532788
+  name "e-puck(11)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+E-puck {
+  hidden position_0_0 2890.6548684303857
+  hidden position_0_1 3336.03314950788
+  hidden linearVelocity_0 0.04611732282445156 -0.0889581947625193 -3.2554187612169484e-06
+  hidden angularVelocity_0 0.011987501906235272 0.004944605101073016 0.1891354405477952
+  hidden rotation_1 0 1 0 0.38962712777592484
+  hidden linearVelocity_1 0.043887435073270024 -0.08466545113396086 1.5773139727673623e-07
+  hidden angularVelocity_1 4.212045252746303 2.1837512731384896 0.1991390172671537
+  hidden rotation_2 0 1 0 5.944936702699065
+  hidden linearVelocity_2 0.04839749320571226 -0.09337016606442748 6.2600219673408116e-09
+  hidden angularVelocity_2 4.688966936772521 2.430298396657297 0.20049667991904918
+  translation 1.3458353790286093 0.1410331428649407 -5.83264099752942e-05
+  rotation 0.0012580073372697913 0.0006441196540103887 -0.9999990012632065 1.088130639189302
+  name "e-puck(9)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+E-puck {
+  hidden position_0_0 2863.0458178257336
+  hidden position_0_1 3441.0033190984805
+  hidden linearVelocity_0 0.0005006148346353822 0.003615391016243053 1.3324738390223093e-05
+  hidden angularVelocity_0 -0.2404545463799206 0.023226907563927243 -1.4122434939355408
+  hidden rotation_1 0 -1 0 2.0866822481578406
+  hidden linearVelocity_1 -0.0037079808046948464 -0.031550605850075714 1.9844580715089166e-05
+  hidden angularVelocity_1 1.7463472545110503 -0.20771820367245908 -1.4154826655581239
+  hidden rotation_2 0 -0.9999999999999999 0 2.1822292359329287
+  hidden linearVelocity_2 0.00473440228688704 0.041168663362000736 -1.3520321347514509e-05
+  hidden angularVelocity_2 -2.2272678274357705 0.25406526789479245 -1.4156003729105955
+  translation 0.6378050010314653 0.7713421279086715 -5.93876140299026e-05
+  rotation 0.003057486500434207 0.0025112880472974875 -0.9999921725736873 1.7183096229747592
+  name "e-puck(10)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+E-puck {
+  hidden position_0_0 2910.4104297210806
+  hidden position_0_1 3417.7830125028327
+  hidden linearVelocity_0 -0.09908270664349271 0.013356550983170077 4.387375695685192e-08
+  hidden angularVelocity_0 0.0001874484581626589 0.0013930314211172126 6.174897006209771e-07
+  hidden rotation_1 0 -1 0 4.987552810247507
+  hidden linearVelocity_1 -0.09907569448367375 0.0133560912930123 -1.2907346745221375e-09
+  hidden angularVelocity_1 -0.6677803898128408 -4.953787991201788 -1.1918404717520085e-07
+  hidden rotation_2 0 -1 0 0.2697946028623811
+  hidden linearVelocity_2 -0.09907582200898295 0.013355140833044614 -1.1062760485946907e-09
+  hidden angularVelocity_2 -0.6677812226194412 -4.953787878913787 -3.506910319402682e-08
+  translation -0.8636883266653823 -0.9194185652126953 -5.593327411103702e-05
+  rotation -0.000837076570504752 5.620339316261247e-05 -0.9999996480719349 -3.0075983837792215
+  name "e-puck(8)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+E-puck {
+  hidden position_0_0 1488.0977450151277
+  hidden position_0_1 1566.5598077162772
+  hidden linearVelocity_0 0.04976900637431678 6.298559083671119e-09 1.1454887329904192e-08
+  hidden angularVelocity_0 6.874632520953759e-07 -3.201897437390031e-07 1.3697480243015138e-06
+  hidden rotation_1 0 1 0 3.0628179917855913
+  hidden linearVelocity_1 0.04976898706741441 -2.8377017692791482e-08 1.2463156460844361e-08
+  hidden angularVelocity_1 -4.3367732461363255 2.488450732080278 0.0014198919080724139
+  hidden rotation_2 0 -1 0 4.8248414137692555
+  hidden linearVelocity_2 0.04976902252640715 3.407664308563805e-08 9.964750938255601e-09
+  hidden angularVelocity_2 -4.336773364742389 2.488450527113909 0.0014199059198596012
+  translation -1.3061707989514348 1.4631968902047545 -3.8396989481007116e-05
+  rotation -0.002165785410674145 0.0031749670645515207 -0.9999926144515738 -1.0498684997040462
+  name "e-puck(5)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+E-puck {
+  hidden position_0_0 1513.7311121117777
+  hidden position_0_1 1504.5837930782895
+  hidden linearVelocity_0 0.03442393920998709 -0.09392009260017323 -1.1586545398473326e-08
+  hidden angularVelocity_0 0.0018749174652148647 0.0006871993524057763 5.228029872600242e-10
+  hidden rotation_1 0 1 0 5.703742638155965
+  hidden linearVelocity_1 0.034427322864844546 -0.09392948677649353 7.088738499635327e-11
+  hidden angularVelocity_1 4.696473422585844 1.7213687141931904 8.216915620695051e-08
+  hidden rotation_2 0 -0.9999999999999999 0 3.098229621871243
+  hidden linearVelocity_2 0.0344274278451876 -0.09392944840757621 -3.384825771620384e-11
+  hidden angularVelocity_2 4.696473377797844 1.721368836401959 -8.218222184281314e-08
+  translation -1.093840383342803 0.7358801642724446 -5.593487917684471e-05
+  rotation 0.0007466525056454202 0.0010688906332091297 0.9999991499910638 -1.219478365791061
+  name "e-puck(4)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+E-puck {
+  hidden position_0_0 1480.8941891491572
+  hidden position_0_1 1478.8032078924255
+  hidden linearVelocity_0 -0.06480887128845973 0.09522515825174312 -0.0002581873251007802
+  hidden angularVelocity_0 -0.8159083838197879 -0.5596750090993023 0.01292272919698852
+  hidden rotation_1 0 -1 0 5.104794128414402
+  hidden linearVelocity_1 -0.06697658493732714 0.09926236049190337 -3.722620402961833e-05
+  hidden angularVelocity_1 -4.964983933787899 -3.349945353432132 -0.0035998439806464756
+  hidden rotation_2 0 1 0 2.636798567067254
+  hidden linearVelocity_2 -0.06780659166664643 0.0987207097526837 -1.0220024658986055e-05
+  hidden angularVelocity_2 -4.937088265491153 -3.3910432630008365 0.01284353867349787
+  translation 0.8264087642076631 0.9021315697430312 -7.678163122971926e-05
+  rotation 0.0010145295661442646 -0.00025886028985203346 -0.9999994518604047 -2.16764620073317
+  name "e-puck(7)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
+E-puck {
+  hidden position_0_0 1909.667291523641
+  hidden position_0_1 2253.3287545361823
+  hidden linearVelocity_0 -0.09326678601605813 0.03634878083902385 5.031444169692762e-08
+  hidden angularVelocity_0 -0.0024108152089816633 -0.00618579248010372 -2.987295365777005e-08
+  hidden rotation_1 0 -1 0 0.4210418589531918
+  hidden linearVelocity_1 -0.09329764258420996 0.03636101616175284 1.8796724178527215e-10
+  hidden angularVelocity_1 -1.8180417873146388 -4.664885629693301 9.693180117639301e-08
+  hidden rotation_2 0 1 0 3.9484145658903005
+  hidden linearVelocity_2 -0.0932977844558475 0.03636065253211756 -2.6411183794496335e-10
+  hidden angularVelocity_2 -1.8180416344971198 -4.664885689256901 -1.1259309200478254e-07
+  translation -0.8693194447211781 1.0915812499727 -5.593615196185925e-05
+  rotation 0.0007359106834761413 -0.00013833577686945614 -0.9999997196493002 -2.7699718407804204
+  name "e-puck(2)"
+  controller "my_swarm_controller"
+  version "2"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 480
+}
